@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: black;
+    color: aliceblue;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  margin-top: 10%;
+}
+.eslogan p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.doblebienvenida {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.definicion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Libre Baskerville", serif;
+    margin: 10%;
+}
+.definicion h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+  }
+.definicion h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+.definicion p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin: 30px;
+}
+.formulario{
+  margin: 10%;
+}
+.secciones {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10%;
+  height: 10%;
+}
+.secciones img {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 90%;
+}
+.secciones h1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: large;
+}
+ul {
+  list-style: none;
+}
+.libros{
+  display: flex;
+  flex-direction: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  margin-block: 10%;
+}
+.libros img{
+  display: flex;
+  height: 300px;
+  margin: 20px;
+}
+.libros h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.libros h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.icono{
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+}
+footer p {
+  color: aliceblue;
+  display: flex;
+}
+.col{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.enyhapropiedad{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(62, 14, 106);
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 10px;
+}
+.enyhapropiedad img{
+  display: flex;
+  width: 50px;
+}
+.segundalinea{
+  display: flex;
+  background-color: rgb(88, 14, 14);
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 10px;
+}

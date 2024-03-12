@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+img {
+  align-content: center;
+  justify-content: center;
+  animation: normal;
+  animation-delay: 3s;
+}
+.iniciogen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+  justify-content: center;
+}
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  margin-top: 10%;
+  font-size: 250%;
+  text-decoration: none;
+}
