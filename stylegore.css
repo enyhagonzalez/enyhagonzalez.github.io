@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
-    background-color: black;
-    color: aliceblue;
+  background-image: linear-gradient(to bottom, #000000, #190308, #27060b, #350609, #430203);    color: aliceblue;
+}
+a :hover{
+color: rgb(225, 102, 102);
+}
+img a :hover{
+  color: rgb(225, 102, 102);
 }
 header {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 150px;
+  height: 125px;
   margin-top: 10%;
 }
 .eslogan p{
@@ -33,7 +38,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 120px;
+    font-size: 90px;
+    color: hwb(0 13% 0%);
   }
 .definicion h2{
     display: flex;
@@ -60,6 +66,7 @@ header {
   justify-content: center;
   margin: 10%;
   height: 10%;
+  font-family: "Libre Baskerville", serif;
 }
 .secciones img {
   display: flex;
@@ -79,7 +86,6 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: black;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -126,12 +132,11 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
+  text-align: center;
 }
 .icono{
   display: flex;
   flex-direction: row;
-  width: 20%;
 }
 footer p {
   color: aliceblue;
@@ -140,18 +145,20 @@ footer p {
 .col{
   display: flex;
   flex-wrap: wrap;
+  width: 10%;
 }
 
 .enyhapropiedad{
   display: flex;
   flex-direction: row;
-  background-color: rgb(62, 14, 106);
-  align-items: center;
+  background-image: linear-gradient(to right bottom, #3e0d56, #300f42, #230e2f, #17091c, #030104);
+  text-align: center;
+  align-content: center;
   justify-content: space-around;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding-top: 10px;
+  padding: 1%;
 }
 .enyhapropiedad img{
   display: flex;
@@ -159,7 +166,7 @@ footer p {
 }
 .segundalinea{
   display: flex;
-  background-color: rgb(88, 14, 14);
+  background-image: linear-gradient(to right bottom, #a7023e, #95033c, #830538, #710734, #5f082f);
   justify-content: center;
   align-items: center;
   font-size: 10px;
@@ -167,4 +174,26 @@ footer p {
   font-weight: 400;
   font-style: normal;
   padding-top: 10px;
+}
+form{
+  display: grid;
+  grid-column: column;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  background-color: #710734;
+  margin: 10%;
+  border: #000000;
+  font-family: "Poppins", sans-serif;
+  padding: 5%;
+}
+label{
+  display: flex;
+  justify-content: center;
+}
+.botonform{
+  display: flex;
+  justify-content: end;
+  align-content: center;
+  width: 5%;
 }
