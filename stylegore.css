@@ -1,12 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-body{
-  background-image: linear-gradient(to bottom, #000000, #190308, #27060b, #350609, #430203);    color: aliceblue;
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #190308,
+    #27060b,
+    #350609,
+    #430203
+  );
+  color: aliceblue;
 }
-a :hover{
-color: rgb(225, 102, 102);
+a :hover {
+  color: rgb(225, 102, 102);
 }
-img a :hover{
+img a :hover {
   color: rgb(225, 102, 102);
 }
 header {
@@ -17,45 +25,48 @@ header {
   height: 125px;
   margin-top: 10%;
 }
-.eslogan p{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.eslogan p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .doblebienvenida {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.definicion{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: "Libre Baskerville", serif;
-    margin: 10%;
+.definicion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Libre Baskerville", serif;
+  margin: 10%;
 }
-.definicion h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 90px;
-    color: hwb(0 13% 0%);
-  }
-.definicion h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 50px;
+.definicion h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 80px;
+  color: hwb(0 13% 0%);
 }
-.definicion p{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    margin: 30px;
+.definicion h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
 }
-.formulario{
+.definicion p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin: 30px;
+}
+.formulario {
   margin: 10%;
 }
 .secciones {
@@ -98,32 +109,33 @@ a {
 ul {
   list-style: none;
 }
-.libros{
+.obras {
   display: flex;
-  flex-direction: wrap;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin: 15px;
   margin-block: 10%;
 }
-.libros img{
+.obras img {
   display: flex;
+  flex-wrap: wrap;
   height: 300px;
   margin: 20px;
 }
-.libros h1{
+.obras h1 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.libros h2{
+.obras h2 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.col{
+.col {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -134,7 +146,7 @@ footer {
   justify-content: center;
   text-align: center;
 }
-.icono{
+.icono {
   display: flex;
   flex-direction: row;
 }
@@ -142,16 +154,17 @@ footer p {
   color: aliceblue;
   display: flex;
 }
-.col{
-  display: flex;
-  flex-wrap: wrap;
-  width: 10%;
-}
-
-.enyhapropiedad{
+.enyhapropiedad {
   display: flex;
   flex-direction: row;
-  background-image: linear-gradient(to right bottom, #3e0d56, #300f42, #230e2f, #17091c, #030104);
+  background-image: linear-gradient(
+    to right bottom,
+    #3e0d56,
+    #300f42,
+    #230e2f,
+    #17091c,
+    #030104
+  );
   text-align: center;
   align-content: center;
   justify-content: space-around;
@@ -160,13 +173,20 @@ footer p {
   font-style: normal;
   padding: 1%;
 }
-.enyhapropiedad img{
+.enyhapropiedad img {
   display: flex;
   width: 50px;
 }
-.segundalinea{
+.segundalinea {
   display: flex;
-  background-image: linear-gradient(to right bottom, #a7023e, #95033c, #830538, #710734, #5f082f);
+  background-image: linear-gradient(
+    to right bottom,
+    #a7023e,
+    #95033c,
+    #830538,
+    #710734,
+    #5f082f
+  );
   justify-content: center;
   align-items: center;
   font-size: 10px;
@@ -175,7 +195,7 @@ footer p {
   font-style: normal;
   padding-top: 10px;
 }
-form{
+form {
   display: grid;
   grid-column: column;
   align-content: center;
@@ -187,11 +207,11 @@ form{
   font-family: "Poppins", sans-serif;
   padding: 5%;
 }
-label{
+label {
   display: flex;
   justify-content: center;
 }
-.botonform{
+.botonform {
   display: flex;
   justify-content: end;
   align-content: center;
